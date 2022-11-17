@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bored?</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron" style="text-align: center;">
+      <h1>Get Unbored!</h1>
+    </div>
+    <form>
+      <div class="paramWrapper">
+        <div class="row">
+          <label for="type">Activities:</label>
+          <br>
+          <select name="type" id="type">
+            <option value="education">Education</option>
+            <option value="recreational">Recreational</option>
+            <option value="social">Social</option>
+            <option value="diy">DIY</option>
+            <option value="charity">Charity</option>
+            <option value="cooking">Cooking</option>
+            <option value="relaxation">Relaxation</option>
+            <option value="music">Music</option>
+            <option value="busywork">Busy Work</option>
+          </select>
+        </div>
+        <br>
+        <div class="row">
+          <label for="participants">Participants:</label>
+          <br>
+          <select name="participants" id="participants">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+      </div>
+      <br>
+      <div class="buttonWrapper">
+        <div class="row">
+          <button id="submit" type="submit" class="btn btn-success">Get Unbored!</button>
+        </div>
+    </form>
+    <div class="row">
+      <button id="random" type="click" class="btn btn-info">Randomly Get Unbored!</button>
+    </div>
+  </div>
+  <div id="display">
+    <h2 id="display-activity"></h2>
+    <p id="display-participants"></p>
+  </div>
+  </div>
+</body>
+
+</html>
